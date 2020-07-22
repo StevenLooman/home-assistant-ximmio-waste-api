@@ -1,0 +1,7 @@
+{
+  "domain": "ximmio-waste-api",
+  "name": "Ximmio waste API",
+  "dependencies": [],
+  "codeowners": ["@StevenLooman"],
+  "requirements": []
+}
