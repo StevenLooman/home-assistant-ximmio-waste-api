@@ -107,7 +107,7 @@ class XimmioWasteApiSensor(Entity):
         pickup_dates = [
             pickup_date
             for pickup_date in pickup_dates
-            if pickup_date > todays_date
+            if pickup_date >= todays_date
         ]
         next_pickup_date: datetime = min(pickup_dates)
         return next_pickup_date.strftime("%Y-%m-%d")
